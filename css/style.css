@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: aliceblue;
+  font-family: Clearface ITC W01, Georgia, Times New Roman, Times, serif;
+}
+
+h3 {
+  text-align: center;
+  padding: 50px;
+  font-family: "Kurale", serif;
+  font-weight: 10;
+}
+
+div > a {
+  text-decoration: none;
+  color: white;
+}
+hgroup {
+  text-align: center;
+  padding-top: 120;
+}
+
+#id1 {
+  padding-bottom: 20;
+  font-family: "Kurale", serif;
+  font-size: 70;
+  font-weight: 10;
+}
+
+#id2 {
+  padding-bottom: 20;
+  font-family: "Kurale", serif;
+  font-weight: 10;
+}
+
+#id3 {
+  border: none;
+  border-bottom: 1px solid white;
+  width: 40;
+  margin-left: 750;
+  font-family: "Kurale", serif;
+  font-weight: 10;
+}
+
+h4 > a {
+  text-decoration: none;
+  color: aliceblue;
+}

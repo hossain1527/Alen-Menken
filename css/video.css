@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-video {
+  overflow: hidden;
+  position: relative;
+  z-index: -1000;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+#video-play {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+a {
+  position: absolute;
+  background: none;
+  text-decoration: none;
+  bottom: 80px;
+  right: 40px;
+  cursor: pointer;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  letter-spacing: 0.4em;
+  font-family: "Kurale", serif;
+}
